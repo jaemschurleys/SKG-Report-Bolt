@@ -309,7 +309,7 @@ const SecurityReportingApp = () => {
             >
               <MapPin className="w-4 h-4 mr-1" />
               GPS
-            </div>
+            </button>
           </div>
         </div>
 
@@ -373,7 +373,8 @@ const SecurityReportingApp = () => {
         </div>
 
         {/* Submit Button */}
-        <div
+        <button
+          type="button"
           onClick={handleSubmit}
           className="w-full bg-blue-600 text-white py-3 px-4 rounded-md hover:bg-blue-700 transition-colors font-semibold flex items-center justify-center cursor-pointer"
         >
